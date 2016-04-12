@@ -1,0 +1,114 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* ic_launcher-web.png
+* proguard-project.txt
+* studio/
+* studio/.idea/
+* studio/.idea/.name
+* studio/.idea/compiler.xml
+* studio/.idea/copyright/
+* studio/.idea/copyright/profiles_settings.xml
+* studio/.idea/misc.xml
+* studio/.idea/modules.xml
+* studio/.idea/vcs.xml
+* studio/.idea/workspace.xml
+* studio/app/
+* studio/app/build.gradle
+* studio/app/libs/
+* studio/app/libs/jsoup-1.8.2.jar
+* studio/app/src/
+* studio/app/src/main/
+* studio/app/src/main/AndroidManifest.xml
+* studio/app/src/main/java/
+* studio/app/src/main/java/ro/
+* studio/app/src/main/java/ro/pub/
+* studio/app/src/main/java/ro/pub/cs/
+* studio/app/src/main/java/ro/pub/cs/systems/
+* studio/app/src/main/java/ro/pub/cs/systems/pdsd/
+* studio/app/src/main/java/ro/pub/cs/systems/pdsd/lab07/
+* studio/app/src/main/java/ro/pub/cs/systems/pdsd/lab07/xkcdcartoondisplayer/
+* studio/app/src/main/java/ro/pub/cs/systems/pdsd/lab07/xkcdcartoondisplayer/entities/
+* studio/app/src/main/java/ro/pub/cs/systems/pdsd/lab07/xkcdcartoondisplayer/entities/XkcdCartoonInfo.java
+* studio/app/src/main/java/ro/pub/cs/systems/pdsd/lab07/xkcdcartoondisplayer/graphicuserinterface/
+* studio/app/src/main/java/ro/pub/cs/systems/pdsd/lab07/xkcdcartoondisplayer/graphicuserinterface/XkcdCartoonDisplayerActivity.java
+* studio/app/src/main/java/ro/pub/cs/systems/pdsd/xkcdcartoondisplayer/
+* studio/app/src/main/java/ro/pub/cs/systems/pdsd/xkcdcartoondisplayer/general/
+* studio/app/src/main/java/ro/pub/cs/systems/pdsd/xkcdcartoondisplayer/general/Constants.java
+* studio/app/src/main/java/ro/pub/cs/systems/pdsd/xkcdcartoondisplayer/general/Utilities.java
+* studio/app/src/main/res/
+* studio/app/src/main/res/drawable-hdpi/
+* studio/app/src/main/res/drawable-hdpi/ic_launcher.png
+* studio/app/src/main/res/drawable-mdpi/
+* studio/app/src/main/res/drawable-mdpi/ic_launcher.png
+* studio/app/src/main/res/drawable-xhdpi/
+* studio/app/src/main/res/drawable-xhdpi/ic_launcher.png
+* studio/app/src/main/res/drawable-xxhdpi/
+* studio/app/src/main/res/drawable-xxhdpi/ic_launcher.png
+* studio/app/src/main/res/layout/
+* studio/app/src/main/res/layout/activity_xkcd_cartoon_displayer.xml
+* studio/app/src/main/res/menu/
+* studio/app/src/main/res/menu/xkcd_cartoon_displayer.xml
+* studio/app/src/main/res/values-v11/
+* studio/app/src/main/res/values-v11/styles.xml
+* studio/app/src/main/res/values-v14/
+* studio/app/src/main/res/values-v14/styles.xml
+* studio/app/src/main/res/values-w820dp/
+* studio/app/src/main/res/values-w820dp/dimens.xml
+* studio/app/src/main/res/values/
+* studio/app/src/main/res/values/colors.xml
+* studio/app/src/main/res/values/dimens.xml
+* studio/app/src/main/res/values/strings.xml
+* studio/app/src/main/res/values/styles.xml
+* studio/build.gradle
+* studio/gradle/
+* studio/gradle/wrapper/
+* studio/gradle/wrapper/gradle-wrapper.jar
+* studio/gradle/wrapper/gradle-wrapper.properties
+* studio/gradlew
+* studio/gradlew.bat
+* studio/local.properties
+* studio/settings.gradle
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* libs/jsoup-1.8.2.jar => app/libs/jsoup-1.8.2.jar
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
